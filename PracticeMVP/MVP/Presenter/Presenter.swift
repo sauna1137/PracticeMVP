@@ -8,8 +8,6 @@
 import Foundation
 import UIKit
 
-//
-
 protocol UserPresenterDelegate: AnyObject {
     func presentUsers(users: [User])
     func presentAlert(title: String, message: String)
